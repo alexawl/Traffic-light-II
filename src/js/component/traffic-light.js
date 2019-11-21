@@ -21,21 +21,21 @@ export class TrafficLight extends React.Component {
 				<div className="toptrafficlight" />
 				<div className="trafficbase">
 					<div
-						className={"red light" + redShadow}
+						className={"red light " + redShadow}
 						onClick={() => this.setState({ selectedlight: "red" })}
 					/>
 
 					<div
-						className={"yellow light" + yellowShadow}
+						className={"yellow light " + yellowShadow}
 						onClick={() =>
 							this.setState({ selectedlight: "yellow" })
 						}
 					/>
 
 					<div
-						className={"green light" + greenShadow}
+						className={"green light " + greenShadow}
 						onClick={() =>
-							this.setState({ selectedlight: "yellow" })
+							this.setState({ selectedlight: "green" })
 						}
 					/>
 				</div>
